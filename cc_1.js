@@ -42,3 +42,10 @@ console.log("Account Balance after interest:", accountBalance); //735
 accountBalance /= 2;// half the balance
 console.log("Account Balance after halving:", accountBalance); //367.5
 
+// Task 4 - Customer Messaging
+// Declare a variable for the welcome message and assign it a string value.
+let customerName = "Alice";
+// Concatenate the customer's name with the welcome message.
+let welcomeMessage = "Welcome, " + customerName + "! We're glad to have you!";
+//Log the welcome message to the console.
+console.log(welcomeMessage);
