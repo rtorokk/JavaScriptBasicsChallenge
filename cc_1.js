@@ -49,3 +49,18 @@ let customerName = "Alice";
 let welcomeMessage = "Welcome, " + customerName + "! We're glad to have you!";
 //Log the welcome message to the console.
 console.log(welcomeMessage);
+
+// Task 5 - Access Control
+// Declare a variable for the user's role and assign it a string value.
+let isLoggedIn = true;
+// Check if the user is logged in and log a message based on their role.
+if (isLoggedIn) {
+  console.log("User is logged in. Access granted.");
+} else {
+  console.log("User is not logged in. Access denied.");
+}
+// Declare a variable for the admin rights and assign it a boolean value.
+let hasAdminRights = false;
+// Check if the user has admin rights and log a message based on the combined conditions.
+console.log("User has admin rights:", isLoggedIn && hasAdminRights);
+console.log("General Access:", isLoggedIn || hasAdminRights);
